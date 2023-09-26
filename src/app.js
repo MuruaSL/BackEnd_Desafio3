@@ -138,13 +138,13 @@ class ProductManager{
 // Utilizacion
 // Creacion del manager
 let manager = new ProductManager('json/productosDesafio2.json');
-    manager.addProduct("Producto 1", "Descripción del producto 1", 1500, "imagen1.jpg","282a12g1asd" ,10);
-    manager.addProduct("Producto 2", "Descripción del producto 2", 2900, "imagen2.jpg","52321a2gasd" ,15);
-    manager.addProduct("Producto 2", "Descripción del producto 2", 2900, "imagen2.jpg","52g213aasd" ,15);
-    manager.addProduct("Producto 2", "Descripción del producto 2", 2900, "imagen2.jpg","65g2271aasd" ,15);
-console.log(manager.getProducts());
-    manager.updateProduct(2, "code", '282a12g1asd')
-    manager.deleteProduct(1)
+    // manager.addProduct("Producto 1", "Descripción del producto 1", 1500, "imagen1.jpg","282a12g1asd" ,10);
+    // manager.addProduct("Producto 2", "Descripción del producto 2", 2900, "imagen2.jpg","52321a2gasd" ,15);
+    // manager.addProduct("Producto 2", "Descripción del producto 2", 2900, "imagen2.jpg","52g213aasd" ,15);
+    // manager.addProduct("Producto 2", "Descripción del producto 2", 2900, "imagen2.jpg","65g2271aasd" ,15);
+    // console.log(manager.getProducts());
+    // manager.updateProduct(2, "code", '282a12g1asd')
+    // manager.deleteProduct(1)
 
 
 
